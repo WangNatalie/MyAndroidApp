@@ -16,8 +16,8 @@ buildscript {
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
         implementation 'com.facebook.react:react-native-sqlite-storage:5.0.0'  // Use the latest version
+    }   
 }
-    }
-}
+
 
 apply plugin: "com.facebook.react.rootproject"
